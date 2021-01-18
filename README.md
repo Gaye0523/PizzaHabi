@@ -80,7 +80,7 @@ Tras leer el [PDF] relize un sketch de alta fidelidad en figma, Incie el proyect
 ## 5. Ver el proyecto
 
   * [X] Clonar proyecto.
-  * [X] Ejecutarl con npm start.
+  * [X] Ejecutar con npm start.
 
 
 
