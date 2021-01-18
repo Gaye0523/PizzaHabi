@@ -1,0 +1,33 @@
+@import 'Inicio';
+
+.navigation {
+    background-color: $mostaza;
+    width: 80%;
+    height: 70px;
+    margin-top: 6%;
+    display: flex;
+    flex-flow: row;
+    justify-content: inherit;
+    padding-right: 20%;
+    margin-left: 12%;
+
+
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 50%;
+
+    }
+
+    h3 {
+        font-family: OPTIChampionBold;
+        font-size: 3.5vw;
+    }
+
+    h2 {
+        font-family: Cookie-Regular;
+        font-size: 3.5vw;
+        margin-top: 10px;
+    }
+}

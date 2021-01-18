@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Pizza Habi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Indice
 
-## Available Scripts
+- [Pizza Habi](#pizza-habi)
+  - [Indice](#indice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Resumen del desarrollo del proyecto](#2-resumen-del-desarrollo-del-proyecto)
+  - [3. Lenguajes y Librerias usadas](#3-lenguajes-y-librerias-usadas)
+    - [HTML y CSS](#html-y-css)
+    - [JavaScript](#javascript)
+    - [JSON](#json)
+    - [Estructura del código y guía de estilo](#estructura-del-código-y-guía-de-estilo)
+    - [React](#react)
+    - [UX](#ux)
+  - [4. Vista Final](#4-vista-final)
+  - [5. Ver el proyecto](#5-ver-el-proyecto)
 
-In the project directory, you can run:
 
-### `npm start`
+## 1. Preámbulo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Esta prueba se trata de construir una interfaz web usando el *framework* (ReactJS), Donde me ayuda a mantener la interfaz y el estado sincronizados.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Elegi esta tecnologia ya que no solo importo un pedacito de código para reusarlo, si no que adopto una **arquitectura**, una serie de **pincipios de diseño**, unas **abastracciones**, un **vocabulario**, una **comunidad**, etc...
 
-### `npm test`
+Como desarrolladora Front-end, estos kits de desarrollo pueden resultar de grana ayuda para implementar rápidamente características en los proyectos que desarrolle.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 2. Resumen del desarrollo del proyecto
 
-### `npm run build`
+Tras leer el [PDF] relize un sketch de alta fidelidad en figma, Incie el proyecto con Vsc, donde instale el Framework, hice la instalacion de las librerias necesarias, dividi el codigo y desarrolle lo necesario.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 3. Lenguajes y Librerias usadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  ### HTML y CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [X] [Uso de HTML semántico.]
+* [X] [Uso de selectores de CSS.]
+* [X] [Uso de flexbox en CSS.]
+  
+### JavaScript
 
-### `npm run eject`
+  * [X] Uso de condicionales
+  * [X] Uso de funciones
+  * [X] Manipular arrays
+  * [X] Manipular objects
+  * [X] Uso de callbacks.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### JSON
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  * [X] Creacion de JSON
+  * [X] Consumo de API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  ### Estructura del código y guía de estilo
 
-## Learn More
+   * [X] Organizar y dividir el código en módulos
+   * [X] Uso de identificadores descriptivos
+   * [X] Uso de condicionales
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ### React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   * [X] JSX
+   * [X] Eventos en React.
+   * [X] Listas y keys.
+   * [X] Elevación de estados.
+   * [X] Hooks.
+   * [X] React Router.
 
-### Code Splitting
+  ### UX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   * [X] Diseñar la aplicación pensando y entendiendo al usuario.
+   * [X] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
-### Analyzing the Bundle Size
+## 4. Vista Final
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Vista 1](./Imagenes/../public/Imagenes/Vista1.jpg)
+![Vista 2](./Imagenes/../public/Imagenes/Vista2.jpg)
+![Vista 3](./Imagenes/../public/Imagenes/Vista3.jpg)
 
-### Making a Progressive Web App
+## 5. Ver el proyecto
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  * [X] Clonar proyecto.
+  * [X] Ejecutarl con npm start.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

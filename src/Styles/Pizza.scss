@@ -1,0 +1,138 @@
+@import 'Inicio';
+
+html {
+  background: url(../Imagenes/fondoBurger.jpg);
+}
+
+
+.containerTitulo {
+  width: 80%;
+  height: 30px;
+  margin-left: 12%;
+  margin-top: 2%;
+
+  .Titulo {
+    font-family: OPTIChampionBold;
+  }
+}
+
+.containerGlobal {
+  width: 100%;
+  height: 68%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .containerCliente {
+    width: 100%;
+    height: 30px;
+    margin-top: 3%;
+    margin-left: 2%;
+
+    label {
+      font-family: Rancho-Regular;
+      font-size: 5vh;
+
+      input {
+        width: 70%;
+        height: 30px;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .menuBreak {
+    margin-top: 2%;
+    background-color: rgb(184, 181, 181);
+    border-radius: 4%;
+    overflow-y: scroll;
+    height: 400px;
+    width: 30%;
+    height: 400px;
+    transition: 850ms;
+
+    .containerMenuPizza{
+      width: 98%;
+      margin-top: 5%;
+      margin-left: 3%;
+
+      .itemsLunch {
+        font-family: Rancho-Regular;
+        background-color: rgb(13, 13, 14);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(236, 206, 160);
+        float: left;
+        width: 35%;
+        height: 30%;
+        margin-top: 3%;
+        margin-left: 10%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        padding: 2%;
+  
+        &:nth-child(2n) {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+}
+
+.containerRequest {
+  background-color: rgb(184, 181, 181);
+  border-radius: 4%;
+  width: 30%;
+  height: 400px;
+  overflow-y: scroll;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+
+  .nameClients {
+    width: 90%;
+    height: 30px;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .containerOrder {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 2%;
+    width: 70%;
+    height: 50px;
+    margin-left: 12%;
+  }
+
+  .containerPrice {
+    width: 30%;
+    height: 30px;
+  }
+
+  .totalPrice {
+    font-family: OPTIChampionBold;
+    font-size: 3.5 vh;
+    text-align: right;
+    margin-right: 33%;
+  }
+
+  .divEnviar {
+    display: flex;
+    justify-content: center;
+
+    .enviar {
+      font-family: Rancho-Regular;
+      background-color: $mostaza;
+      width: 35%;
+      height: 25px;
+      border-radius: 5px;
+      color: black;
+      font-size: 3.2vh;
+      font-weight: bold;
+    }
+  }
+}
