@@ -15,6 +15,7 @@
     - [UX](#ux)
   - [4. Vista Final](#4-vista-final)
   - [5. Ver el proyecto](#5-ver-el-proyecto)
+  - [6. Mejoras para la proxima interaccion](#6-mejoras-para-la-proxima-interaccion)
 
 
 ## 1. Preámbulo
@@ -80,7 +81,11 @@ Tras leer el [PDF] relize un sketch de alta fidelidad en figma, Incie el proyect
 ## 5. Ver el proyecto
 
   * [X] Clonar proyecto.
-  * [X] Ejecutar con npm start.
+  * [X] Correr npm start que abrirá el local host http://localhost:3000 para verlo en el navegador.
+
+## 6. Mejoras para la proxima interaccion
+
+Interaccion con los ingredientes para hacer la pizza, se puede ver el JSON, que cree la informacion, interaccion con el backEnd para guardar la informacion cargada, considero importante tener en cuenta el desarrollo responsive para verlo en otros dispositivos.
 
 
 
