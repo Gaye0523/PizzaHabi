@@ -75,7 +75,7 @@ Tras leer el [PDF] relize un sketch de alta fidelidad en figma, Incie el proyect
 
 ![Vista 1](./Imagenes/../public/Imagenes/Vista1.jpg)
 ![Vista 2](./Imagenes/../public/Imagenes/Vista2.jpg)
-![Vista 3](./Imagenes/../public/Imagenes/Vista3.jpg)
+
 
 ## 5. Ver el proyecto
 
